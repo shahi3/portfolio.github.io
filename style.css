@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item .nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #d1d1d1;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 6rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 3rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Education Section */
+  #education {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  #education h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #education li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  #education li strong {
+    color: #007bff;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  #projects h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .project-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .project-card .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .project-card .card-text {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Key Skills Section */
+  #skills {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  #skills h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  #skills li::before {
+    content: "• ";
+    color: #007bff;
+  }
+  
+  /* Tools Section */
+  #tools {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  #tools h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .tools-icons {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .tools-icons i {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  .tools-icons i:hover {
+    color: #0056b3;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #contact a {
+    color: #007bff;
+  }
+  
+  #contact a:hover {
+    color: #0056b3;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.1rem;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+    }
+  
+    .project-card {
+      margin-bottom: 15px;
+    }
+  
+    .tools-icons i {
+      font-size: 1.5rem;
+    }
+  }
+  
